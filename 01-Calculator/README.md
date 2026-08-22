@@ -20,6 +20,12 @@ A simple console-based calculator built using Java.
 - Switch Statement
 - Conditional Statements
 
+- ## Future Improvements
+
+- Add continuous calculations
+- Add more mathematical operations
+- Improve input validation
+
 ## Example
 
 ```text

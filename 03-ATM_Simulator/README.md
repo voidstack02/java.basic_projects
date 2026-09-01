@@ -1,32 +1,35 @@
-# 💳 ATM Simulator – Java
+# 💳 ATM Simulator - Java
 
-A simple console-based ATM Simulator built using Java. This project is part of my step-by-step Java learning journey and focuses on applying basic Java concepts to a real-world application.
+A simple console-based ATM Simulator built using Java. This project simulates basic ATM operations such as PIN authentication, balance checking, cash withdrawal, and cash deposit.
 
 ## 📌 About the Project
 
-The ATM Simulator allows a user to log in using a PIN and perform basic banking operations.
+This ATM Simulator is a beginner-level Java project created to practice Java fundamentals by implementing a simple real-world banking application.
 
-The program provides a maximum of **3 attempts** to enter the correct PIN. If the user enters the wrong PIN three times, the ATM is locked.
-
-After successful login, the user can:
-
-- Check Balance
-- Withdraw Cash
-- Deposit Cash
+The program first asks the user to enter a PIN. The user gets a maximum of 3 attempts. After successful login, the user can perform different ATM operations through a menu.
 
 ## 🚀 Features
 
-- 🔐 PIN Authentication
-- 🚫 Maximum 3 PIN Attempts
-- 🔒 ATM Lockout after 3 incorrect attempts
-- 💰 Balance Check
-- 💸 Cash Withdrawal
-- 💵 Cash Deposit
-- 📋 Menu-Driven Interface
+- PIN authentication
+- Maximum 3 PIN attempts
+- ATM lockout after 3 incorrect attempts
+- Savings Account balance check
+- Current Account balance check
+- Cash withdrawal
+- Cash deposit
+- Menu-driven interface
+- Basic input validation
+
+## 🔑 Default PIN
+
+**PIN:** `2345`
+
+This PIN is used only for demonstration purposes.
 
 ## 🛠️ Technologies Used
 
 - Java
+- Scanner
 - VS Code
 - GitHub
 
@@ -44,36 +47,31 @@ After successful login, the user can:
 - Comparison Operators
 - Logical Operators
 - Break Statement
-- Basic Program Flow
 
-## 🔄 Program Flow
+## ▶️ How to Use
+
+1. Run the `ATM_Simulator.java` program.
+2. Enter the default PIN `2345`.
+3. After successful login, choose an option from the ATM menu.
+4. Select Balance Check to view the account balance.
+5. Select Cash Withdraw to withdraw money.
+6. Select Cash Deposit to deposit money.
+7. If the wrong PIN is entered 3 times, the ATM will be locked.
+
+## 🖥️ Sample Output
+
+### Successful Login
 
 ```text
-START
-  ↓
-Enter PIN
-  ↓
-Check PIN
-  ↓
-Correct?
- ├── NO → Increase Attempts
- │          ↓
- │       Attempts < 3?
- │          ↓
- │       Try Again
- │
- └── YES
-      ↓
-Login Successful
-      ↓
-ATM MENU
-      ↓
-1. Balance Check
+========== ATM ==========
 
-##Default PIN:**
-```text
+Enter Your PIN
 2345
-2. Cash Withdrawal
-3. Cash Deposit
-      ↓
-Perform Operation
+
+Login successful!
+
+CHOOSE YOUR ACTION
+
+1 - Balance check
+2 - Cash withdraw
+3 - Cash Deposit

@@ -69,6 +69,10 @@ Login Successful
 ATM MENU
       ↓
 1. Balance Check
+
+##Default PIN:**
+```text
+2345
 2. Cash Withdrawal
 3. Cash Deposit
       ↓

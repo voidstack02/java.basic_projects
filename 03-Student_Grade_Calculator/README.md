@@ -1,4 +1,4 @@
-# Student Grade Calculator 🎓
+ # Student Grade Calculator 🎓
 
 A simple console-based Student Grade Calculator developed using Java.
 

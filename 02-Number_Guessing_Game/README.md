@@ -2,6 +2,7 @@
 
 A console-based number guessing game built using Java.
 
+
 The player selects a difficulty level and tries to guess a randomly generated number within the given range and number of attempts.
 
 ## Features
